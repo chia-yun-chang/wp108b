@@ -1,4 +1,3 @@
-console.log('hello!')
-
+console.log('hello!');
 var x = 3, y = 5;
-console.log('x=', x,'y=', y,'x+y=', x+y)
+console.log('x=', x,'y=', y,'x+y=', x+y);
