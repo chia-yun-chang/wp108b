@@ -1,5 +1,5 @@
-## Title
-# small title
+# Title
+## small title
 
 h1 is title
 ```
