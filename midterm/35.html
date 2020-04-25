@@ -3,59 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <body bgcolor="#111111">
-<style>
- .sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #fff;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 10px;}
-
- .sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #828282;
-  display: block;
-  transition: 0.3s;}
-
-.sidenav a:hover {
-  color: #111111;}
-
- .sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 5px;
-  font-size: 36px;
-  margin-left: 50px;}
-
-body{font-family: Arial, Helvetica, sans-serif;}
-.navbar {
-  overflow: hidden;
-  background-color: #111;
-}
-
-.navbar a {
-  float: right;
-  font-size:25px;
-  color: white;
-  text-align:center;
-  text-decoration:none;
-  padding: 15px 16px;}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color:#783267;}
-
-</style>
+<link href="css.css" rel="stylesheet" type ="text/css">
 </head>
 <body>
-
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="https://chia-yun-chang.github.io/wp108b/1/hw.html" target="_blank">About</a> 
@@ -69,14 +19,13 @@ body{font-family: Arial, Helvetica, sans-serif;}
   <a href="https://chia-yun-chang.github.io/wp108b/midterm/h.html">Rough Collie</a>
   <a href="https://chia-yun-chang.github.io/wp108b/midterm/i.html">Old English Sheepdog</a>
   <a href="https://chia-yun-chang.github.io/wp108b/midterm/j.html">Bordercollie</a>
-  
 </div>
 
 <div class="navbar">
   <a href="#home">Home</a>
 </div>
 
-<span style="font-size:45px;color:#ffffff;cursor:pointer" onclick="openNav()">&#9826;</span>
+<span onclick="openNav()">&#9826;</span>
 
 <script>
 function openNav() {
@@ -84,12 +33,13 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";}
 </script>
-<h2 div style="text-align:center;color:#ffffff;">Dogs Introduction:</h2>
-<div style="border-top:1px dashed #cccccc;height: 1px;overflow:hidden"></div>
-<h2 style="color:#ffffff">Origin:</h2>
-<p style="color:#ffffff">The origin of the domestic dog includes the dog's evolutionary divergence from the wolf, its domestication, and its development into dog types and dog breeds. The dog is a member of the genus Canis, which forms part of the wolf-like canids, and was the first species and the only large carnivore to have been domesticated. The dog and the extant gray wolf are sister taxa, as modern wolves are not closely related to the population of wolves that was first domesticated.</p></br>
-<div style="border-top:1px dashed #cccccc;height: 1px;overflow:hidden"></div>
-<pre style="text-align:center;color:#ffffff">  If you want to learn more about different breeds of dogs.</pre>
-<pre style="text-align:center;color:#ffffff">  Please click the diamond in the upper left corner.</pre>
+
+<h2>Dogs Introduction:</h2>
+<div class="line"></div>
+<h2>Origin:</h2>
+<p>The origin of the domestic dog includes the dog's evolutionary divergence from the wolf, its domestication, and its development into dog types and dog breeds. The dog is a member of the genus Canis, which forms part of the wolf-like canids, and was the first species and the only large carnivore to have been domesticated. The dog and the extant gray wolf are sister taxa, as modern wolves are not closely related to the population of wolves that was first domesticated.</p></br>
+<div class="line"></div>
+<pre>  If you want to learn more about different breeds of dogs.</pre>
+<pre>  Please click the diamond in the upper left corner.</pre>
 </body>
 </html> 

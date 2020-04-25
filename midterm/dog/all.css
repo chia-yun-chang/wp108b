@@ -1,0 +1,12 @@
+h1, h3 {
+    text-align:center;
+    color:#ffffff;
+}
+div {
+    border-top:1px dashed #cccccc;
+    height: 1px;
+    overflow:hidden;
+}
+body {
+    background-color:#111111;
+}
