@@ -1,33 +1,28 @@
-class Complex {
-    constructor(r,i) {
-        this.r = r; 
+class complex{
+    constructor(r,i){
+        this.r = r;
         this.i = i;
     }
-
-    add(v2) {
-        return new Complex(this.r+c2.r, this.i+c2.i);
+    add(c2){
+        return new complex(this.r+c2.r, this.i+c2.i);
     }
-    
-    sub(v2) {
-        return new Complex(this.r-c2.r, this.i-c2.i);
+    sub(c2){
+        return new complex(this.r-c2.r, this.i-c2.i);
     }
-    
-    mul(v2) {
-        return new Complex(this.r*c2.r-this.i*c2.i, 
+    mul(c2){
+        return new complex(this.r*c2.r-this.i*c2.i,
                            this.r*c2.i+this.i*c2.r);
     }
-    toString() { 
-        return this.r+"+"+this.i+"i" 
+    toString(){
+        return this.r+"+"+this.i+"i"
     }
 }
-
-var a=new Complex(1,2), b=new Complex(2,1);
-
+var a = new complex(1,2), b=new complex(2,1);
 var x = a.add(b).sub(b).mul(b);
 
 console.log("a=%s", a);
 console.log("b=%s", b);
-console.log("a.add(b)=%s", a.add(b));
+console.log("a.add(b)=%s", a.add(b)); 
 console.log("a.sub(b)=%s", a.sub(b));
 console.log("a.mul(b)=%s", a.mul(b));
 console.log("x=%s", x);

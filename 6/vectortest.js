@@ -1,9 +1,7 @@
-const V = require('./vector')
-var a = new V(1, 2, 3);
-var b = new V(1, 1, 1);
-console.log('va=',a);
-console.log('vb=',b);
-console.log('va.add(vb)=', a.add(b));
-console.log('va.sub(vb)=', a.sub(b));
-console.log('va.dot(vb)=', a.dot(b));
-console.log('va.neg()=', a.neg());
+const vector = require("./vector.js")
+var v1 = new vector.Vector([1,2,3])
+var v2 = new vector.Vector([1,1,1])
+console.log('v1.add(v2)=%s', v1.add(v2))
+console.log('v1.sub(v2)=%s', v1.sub(v2))
+console.log('v1.dot(v2)=%s', v1.dot(v2))
+console.log('v1.neg()=%s', v1.neg())
