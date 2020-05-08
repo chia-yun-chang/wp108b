@@ -6,12 +6,13 @@ class Vector {
     }
     add(v2) { 
         return new Vector (this.x + v2.x, this.y + v2.y, this.z + v2.z);
+
     }
     sub(v2) { 
         return new Vector (this.x - v2.x, this.y - v2.y, this.z - v2.z);
     }
     dot(v2) { 
-        return new Vector (this.x * v2.x + this.y * v2.y + this.z * v2.z);
+        return new Vector (this.x * v2.x, this.y * v2.y, this.z * v2.z);
     }
     neg() {  
         return new Vector (0 - this.x, 0 - this.y, 0 - this.z);

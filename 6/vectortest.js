@@ -1,6 +1,6 @@
 const vector = require("./vector.js")
-var v1 = new vector.Vector([1,2,3])
-var v2 = new vector.Vector([1,1,1])
+var v1 = new vector.Vector(1,2,3)
+var v2 = new vector.Vector(1,1,1)
 console.log('v1.add(v2)=%s', v1.add(v2))
 console.log('v1.sub(v2)=%s', v1.sub(v2))
 console.log('v1.dot(v2)=%s', v1.dot(v2))
