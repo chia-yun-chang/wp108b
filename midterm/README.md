@@ -33,7 +33,7 @@ h1 is title
   document.getElementById("mySidenav").style.width = "0";}
 </script>
 ```
-
+側欄放出來跟收回的寬度.
 ```html
 <h2>Dogs Introduction:</h2>
  <div class="line"></div>
