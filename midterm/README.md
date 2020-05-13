@@ -7,7 +7,6 @@ h1 is title
   <h1><link href="css.css" rel="stylesheet" type ="text/css"></h1>
 </body>
 ```
-<<<<<<< HEAD
 把CSS丟到另外的資料夾,讓HTML程式碼少點.
 ```html
 <div id="mySidenav" class="sidenav">
@@ -45,9 +44,3 @@ h1 is title
  <pre>  Please click the diamond in the upper left corner.</pre>
 ```
 內文
-=======
-把CSS丟到另外的資料夾,讓HTML程式碼少點.
-```
-
-```
->>>>>>> 14fe21b8d3f5a7d86f1e28a2b66ec316b88ec918
