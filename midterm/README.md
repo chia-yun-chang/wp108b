@@ -7,7 +7,7 @@ h1 is title
   <h1><link href="css.css" rel="stylesheet" type ="text/css"></h1>
 </body>
 ```
-把CSS丟到另外的資料夾,讓HTML程式碼少點.
+把CSS丟到另外的資料夾,讓HTML程式碼少點.
 ```html
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -24,7 +24,7 @@ h1 is title
 ```html
 <span onclick="openNav()">&#9826;</span>
 ```
-菱形按鈕,點開是側欄.
+菱形按鈕,點開是側欄.
 ```html
 <script>
  function openNav() {
