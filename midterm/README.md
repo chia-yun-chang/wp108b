@@ -1,7 +1,5 @@
-# Title
-## small title
+# 期中作業註解：
 
-h1 is title
 ```html
 <body>
   <h1><link href="css.css" rel="stylesheet" type ="text/css"></h1>
