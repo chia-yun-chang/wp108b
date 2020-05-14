@@ -1,20 +1,20 @@
 h1, h3 {
     text-align:center;
-    color:#ffffff;
-}
+    color:#ffffff;}
+    
 div {
     border-top:1px dashed #cccccc;
     height: 1px;
-    overflow:hidden;
-}
+    overflow:hidden;}
+
 body {
-    background-color:#111111;
-}
+    background-color:#111111;}
+
 div{
     border-top:1px dashed #cccccc;
     height: 1px;
     overflow:hidden
-  }
+}
 input{
     color: #111111;
 }
