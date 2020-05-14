@@ -52,10 +52,8 @@ span{
   color:#ffffff;
   cursor:pointer}
 
-h1,h2,p,pre{
-  color:#ffffff}
-
-h1,h2{
+h1,h2,p {
+  color:#ffffff;
   text-align:center;}
 
 .line {
@@ -63,5 +61,3 @@ h1,h2{
   height: 1px;
   overflow:hidden}
 
-pre{
-  text-align:center;}
