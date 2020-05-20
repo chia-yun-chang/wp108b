@@ -44,7 +44,7 @@ body {
   text-decoration:none;
   padding: 15px 16px;}
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover .dropdown:hover .dropbtn {
   background-color:#783267;}
 
 span{
