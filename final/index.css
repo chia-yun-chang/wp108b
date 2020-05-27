@@ -10,7 +10,7 @@
     transition: 0.5s;
     padding-top: 10px;}
   
-  .sidenav a {
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -18,25 +18,18 @@
     display: block;
     transition: 0.3s;}
   
-  .sidenav a:hover {
-    color: #111111;}
-  
-  .sidenav .closebtn {
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 5px;
     font-size: 36px;
     margin-left: 50px;}
   
-  body {
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color:#111111;}
-  
-  .navbar {
-    overflow: hidden;
-    background-color: #111111;}
-  
-  .navbar a {
+
+a {
     float: right;
     font-size:25px;
     color: white;
@@ -44,17 +37,13 @@
     text-decoration:none;
     padding: 15px 16px;}
   
-  .navbar a:hover .dropdown:hover .dropbtn {
+a:hover .dropdown:hover .dropbtn {
     background-color:#783267;}
   
-  span{
+span{
     font-size:45px;
     color:#ffffff;
     cursor:pointer}
-  
-  h1,h2,p {
-    color:#ffffff;
-    text-align:center;}
   
 .line {
     border-top:1px dashed #cccccc;
