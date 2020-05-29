@@ -5,8 +5,7 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";}
 
 function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-      }
+    document.getElementById("myDropdown").classList.toggle("show");}
       
 window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
@@ -15,7 +14,7 @@ window.onclick = function(event) {
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
     if (openDropdown.classList.contains('show')) {
-      openDropdown.classList.remove('show');
+        openDropdown.classList.remove('show');
          }
         }
       }

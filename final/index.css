@@ -112,3 +112,12 @@ span{
     background-color: rgb(170, 196, 194);
     height: 100px;
     text-align: center;}
+
+table {
+  color:aliceblue;
+}
+tr {
+  width:300;
+  border:1;
+  border-color: #cccccc;
+}
