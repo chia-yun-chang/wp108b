@@ -1,0 +1,47 @@
+.Bton1, .Bton2, .Bton3, .Bton4, .Bton5{
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    background-color:#7892c2;
+    border-radius:10px;
+    border:1px solid #4e6096;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:19px;
+    padding:12px 37px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #283966;}
+
+.Bton1 {
+    position:absolute;
+    left:15px;
+    top:90px}
+
+.Bton2 {
+    position:absolute;
+    left:15px;
+    top:145px}
+
+.Bton3 {
+    position:absolute;
+    left:15px;
+    top:200px}
+
+.Bton4 {
+    position:absolute;
+    left:15px;
+    top:255px}
+
+.Bton5 {
+    position:absolute;
+    left:15px;
+    top:310px}
+
+.Bton1:hover, .Bton2:hover, .Bton3:hover, .Bton4:hover, .Bton5:hover {
+    background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+    background-color:#476e9e;}
+
+.Bton1:active .Bton2:active, .Bton3:active, .Bton4:active, .Bton5:active {
+    position:relative;
+    top:1px;}
