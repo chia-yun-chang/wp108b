@@ -131,27 +131,27 @@ span{
 .Bton1 {
     position:absolute;
     left:15px;
-    top:110px}
+    top:100px}
 
 .Bton2 {
     position:absolute;
     left:15px;
-    top:165px}
+    top:155px}
 
 .Bton3 {
     position:absolute;
     left:15px;
-    top:220px}
+    top:210px}
 
 .Bton4 {
     position:absolute;
     left:15px;
-    top:275px}
+    top:265px}
 
 .Bton5 {
     position:absolute;
     left:15px;
-    top:330px}
+    top:320px}
 
 .Bton1:hover, .Bton2:hover, .Bton3:hover, .Bton4:hover, .Bton5:hover {
     background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
@@ -180,63 +180,63 @@ span{
 .Btona {
     position:absolute;
     right:180px;
-    top:110px}
+    top:100px}
     
 .Btonb {
     position:absolute;
     right:100px;
-    top:110px}
+    top:100px}
     
 .Btonc {
     position:absolute;
     right:20px;
-    top:110px}
+    top:100px}
     
 .Btond {
     position:absolute;
     right:180px;
-    top:160px}
+    top:150px}
     
 .Btone {
     position:absolute;
     right:100px;
-    top:160px}
+    top:150px}
 
 .Btonf {
     position:absolute;
     right:20px;
-    top:160px}
+    top:150px}
         
 .Btong {
     position:absolute;
     right:180px;
-    top:210px}
+    top:200px}
         
 .Btonh {
     position:absolute;
     right:100px;
-    top:210px}
+    top:200px}
         
 .Btoni {
     position:absolute;
     right:20px;
-    top:210px}
+    top:200px}
         
 .Btonj {
     position:absolute;
     right:180px;
-    top:260px}
+    top:250px}
    
 .Btonk {
     padding:6px 20px;
     position:absolute;
     right:100px;
-    top:260px}
+    top:250px}
             
 .Btonl {
     position:absolute;
     right:20px;
-    top:260px}
+    top:250px}
 
 .Btona:hover, .Btonb:hover, .Btonc:hover, .Btond:hover, .Btone:hover, .Btonf:hover, .Btong:hover, .Btonh:hover, .Btoni:hover, .Btonj:hover, .Btonk:hover, .Btonl:hover {
     background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
@@ -263,7 +263,7 @@ span{
     text-shadow:0px 1px 0px #b23e35;
     position:absolute;
     right:20px;
-    top:320px}
+    top:300px}
 
 .checkout:hover {
     background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
@@ -273,53 +273,3 @@ span{
     position:relative;
     top:1px;}
 
-.cofe1, .cofe2, .cofe3, .cofe4, .cofe5 {
-    box-shadow:inset 0px 1px 0px 0px #fff6af;
-    background:linear-gradient(to bottom, #ffec64 5%, #ffac26 100%);
-    background-color:#ffec64;
-    border-radius:6px;
-    border:1px solid #ffaa22;
-    display:inline-block;
-    cursor:pointer;
-    color:#000000;
-    font-family:Georgia;
-    font-size:20px;
-    font-weight:bold;
-    padding:15px 25px;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #fff18a;}
-
-.cofe1 {
-    padding:15px 26px;
-    position:absolute;
-    left:15px;
-    top:400px}
-    
-.cofe2 {
-    position:absolute;
-    left:15px;
-    top:460px}
-    
-.cofe3 {
-    position:absolute;
-    left:15px;
-    top:520px}
-    
-.cofe4 {
-    position:absolute;
-    left:15px;
-    top:580px}
-      
-.cofe5 {
-    position:absolute;
-    left:15px;
-    top:640px}
-    
-.cofe1:hover, .cofe2:hover, .cofe3:hover, .cofe4:hover, .cofe5:hover {
-        background:linear-gradient(to bottom, #ffac26 5%, #ffec64 100%);
-        background-color:#ffac26;}
-
-.cofe1:active, .cofe2:active, .cofe3:active, .cofe4:active, .cofe5:active {
-        position:relative;
-        top:1px;}
-       
