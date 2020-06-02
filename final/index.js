@@ -21,4 +21,14 @@ window.onclick = function(event) {
   }
   
 function Function1() {
-  document.getElementById("demo").innerHTML = "Hello World";}
+  document.getElementById("dog").innerHTML = "Dog leash";}
+function Function2() {
+  document.getElementById("trash").innerHTML = "Trash can";}
+function Function3() {
+  document.getElementById("toy").innerHTML = "Toy";}
+function Function4() {
+  document.getElementById("birdcage").innerHTML = "Birdcage";}
+function Function5() {
+  document.getElementById("patting").innerHTML = "Patting";}
+function Function6() {
+  document.getElementById("mug").innerHTML = "Mug";}
