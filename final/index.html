@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="index.css" rel="stylesheet" type ="text/css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body> 
  <div id="mySidenav" class="sidenav">
@@ -47,21 +48,63 @@
      <button class="checkout">checkout</button>
     </div>
 
-    <div id="content" >
-     <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSSovkOnX-3OQIXqyZ3oAl_1NNwghbYeIuvmhvDgEyy9MKC-5un&usqp=CAU" width="190" height="150" onclick="Function1();">
-     <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHr5Zpm_a2ePwomiGexUm0i8iQ8ABfIrMT_xOgDNP5On_BuLnA&usqp=CAU" width="180" height="150" onclick="Function2();">
-     <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAAgdWeyaM5MfK4aUY4pBfQlmfRd5L-m156k9ta4_n_g6vnKEx&usqp=CAU" width="180" height="150" onclick="Function3();">
-     <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTxNAsW4bGAITGMuYOoCk78lqvFDm5fwsNGD0UfS0FCIIkl4LG2&usqp=CAU" width="180" height="140" onclick="Function4();">
-     <input type="image" src="https://b.ecimg.tw/items/DEAT17A40921338/000001_1518149878.jpg" width="180" height="140" onclick="Function5();">
-     <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSFI6G5vton38vqiMn2ebpXDK7IvbIaZc5Yah5cNs4oRnO_qdap&usqp=CAU" width="180" height="140" onclick="Function6();">
+    <div id="content" style="text-align: center;">
+     <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAAgdWeyaM5MfK4aUY4pBfQlmfRd5L-m156k9ta4_n_g6vnKEx&usqp=CAU" width="200" height="150" onclick="Function1();">
+     <input type="image" src="https://b.ecimg.tw/items/DEAT17A40921338/000001_1518149878.jpg" width="200" height="150">
+     <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSFI6G5vton38vqiMn2ebpXDK7IvbIaZc5Yah5cNs4oRnO_qdap&usqp=CAU" width="200" height="150">
+     <div class="line"></div>
     </div>
     <div id="footer">
-      <p id="dog"></p>
-      <p id="trash"></p>
-      <p id="toy"></p>
-      <p id="birdcage"></p>
-      <p id="patting"></p>
-      <p id="mug"></p>
+      <div id="imgtest"></div>
+      <table style="text-align: center;">
+        <table border="1" style="text-align: center;font-size: 15px;" align="right">
+        <thead style="height: 50">
+         <td style="width: 150px">商品名稱</td>
+         <td style="width: 120px">數量</td>
+         <td style="width: 150px">價格</td>
+         <td style="width: 200px;">小計</td>
+        </thead>
+        <tr>
+          <td class="name">Toy</td>
+          <td class="quantity">
+          </td>
+          <td class="price">
+            <input type="hidden" id="price1" value="100" />100
+          </td>
+          <td class="total">
+            <span id="smallTotal1">元
+          </td>
+        </tr>
+        <tr>
+          <td class="name">Printing</td>
+          <td class="quantity">
+          </td>
+          <td class="price">
+            <input type="hidden" id="price2" value="200" />200
+          </td>
+          <td class="total">
+            <span id="smallTotal2">元
+          </td>
+        </tr>
+        <tr>
+          <td class="name">Mug</td>
+          <td class="quantity">
+          </td>
+          <td class="price">
+            <input type="hidden" id="price3" value="300" />300
+          </td>
+          <td class="total">
+            <span id="smallTotal3">元
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" class="cart_total">
+          </td>
+          <td>
+            <span class="red">總計:<span id="total">元
+          </td>
+        </tr>
     </div>
+  </table>
 </body>
 </html>
