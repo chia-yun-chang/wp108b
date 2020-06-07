@@ -28,7 +28,7 @@ function total(id){
   smallT.innerHTML=smallTotal;
   var totalPrice=0;
 
-  for(var a=1;a<3;a++){
+  for(var a=1;a<4;a++){
     var quantity=document.getElementById("quantity"+a).value;
     var price=document.getElementById("price"+a).value;
     var smallTotal=quantity*price;
@@ -40,7 +40,7 @@ function total(id){
 function initialize(){
   var totalPrice=0;
 
-  for(var a=1;a<3;a++){
+  for(var a=1;a<4;a++){
     var quantity=document.getElementById("quantity"+a).value;
     var price=document.getElementById("price"+a).value;
     var smallTotal=quantity*price;
@@ -50,3 +50,4 @@ function initialize(){
 
   var total=document.getElementById("total");
   total.innerHTML=totalPrice;}
+ 

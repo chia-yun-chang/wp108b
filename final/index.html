@@ -22,7 +22,6 @@
  <span onclick="openNav()">&#9826;</span>
  <script src="./index.js" type="text/javascript"></script>
  <div class="line"></div>
-
  <div id="sitebody">
     <div id="sidebar_left">
      <button class="Bton1">1</button>
@@ -31,9 +30,8 @@
      <button class="Bton4">4</button>
      <button class="Bton5">5</button>
     </div>
-
     <div id="sidebar_right">
-     <button class="Btona" id="myBtn" onclick="myFunction(1)">1</button>
+     <button class="Btona">1</button>
      <button class="Btonb">2</button>
      <button class="Btonc">3</button>
      <button class="Btond">4</button>
@@ -47,66 +45,62 @@
      <button class="Btonl">.</button>
      <button class="checkout">checkout</button>
     </div>
-
     <div id="content" style="text-align: center;">
-     <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAAgdWeyaM5MfK4aUY4pBfQlmfRd5L-m156k9ta4_n_g6vnKEx&usqp=CAU" width="200" height="150" onclick="Function1();">
+     <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAAgdWeyaM5MfK4aUY4pBfQlmfRd5L-m156k9ta4_n_g6vnKEx&usqp=CAU" width="200" height="150">
      <input type="image" src="https://b.ecimg.tw/items/DEAT17A40921338/000001_1518149878.jpg" width="200" height="150">
      <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSFI6G5vton38vqiMn2ebpXDK7IvbIaZc5Yah5cNs4oRnO_qdap&usqp=CAU" width="200" height="150">
-     <div class="line"></div>
+      <table class="table" border="1" align="left">
+       <thead style="height: 50">
+        <td class="name">Product Name</td>
+        <td class="name">Quantity</td>
+        <td class="name">Price</td>
+        <td class="name">SmallTotal</td>
+       </thead>
+       <tr>
+         <td class="name">Toy</td>
+         <td class="quantity">
+           <input id="quantity1" value="1" onblur="total(1);">
+         </td>
+         <td class="price">
+           <input type="hidden" id="price1" value="100">100
+         </td>
+         <td class="total">
+           <span id="smallTotal1" class="smalltotal1">100</span>
+         </td>
+       </tr>
+       <tr>
+         <td class="name">Printing</td>
+         <td class="quantity">
+           <input id="quantity2" value="1" onblur="total(2);">
+         </td>
+         <td class="price">
+           <input type="hidden" id="price2" value="200">200
+         </td>
+         <td class="total">
+           <span id="smallTotal2" class="smalltotal2">200</span>
+         </td>
+       </tr>
+       <tr>
+         <td class="name">Mug</td>
+         <td class="quantity">
+           <input id="quantity3" value="1" onblur="total(3);">
+         </td>
+         <td class="price">
+           <input type="hidden" id="price3" value="300">300
+         </td>
+         <td class="total">
+           <span id="smallTotal3" class="smalltotal3">300</span>
+         </td> 
+       </tr>
+       <tr>
+         <td colspan="3" class="cart_total"></td>
+         <td>
+           <span class="red">Total:<span class="red" id="total">Dollar
+         </td>
+       </tr>
+      </table>
     </div>
-    <div id="footer">
-      <table class="table">
-        <table class="table2" border="1" align="right">
-        <thead style="height: 50">
-         <td class="name">商品名稱</td>
-         <td class="name">數量</td>
-         <td class="name">價格</td>
-         <td class="name">小計</td>
-        </thead>
-        <tr>
-          <td class="name">Toy</td>
-          <td class="quantity">
-            <input id="quantity1" value="1" onblur="total(1);" />
-        </td>
-          <td class="price">
-            <input type="hidden" id="price1" value="100">100
-          </td>
-          <td class="total">
-            <span id="smallTotal1">
-          </td>
-        </tr>
-        <tr>
-          <td class="name">Printing</td>
-          <td class="quantity">
-            <input id="quantity2" value="2" onblur="total(2);" />
-        </td>
-          <td class="price">
-            <input type="hidden" id="price2" value="200">200
-          </td>
-          <td class="total">
-            <span id="smallTotal2">
-          </td>
-        </tr>
-        <tr>
-          <td class="name">Mug</td>
-          <td class="quantity">
-            <input id="quantity3" value="3" onblur="total(3);" />
-        </td>
-          <td class="price">
-            <input type="hidden" id="price3" value="300">300
-          </td>
-          <td class="total">
-            <span id="smallTotal3">
-          </td>
-        </tr>
-        <tr>
-          <td colspan="3" class="cart_total">
-          </td>
-          <td>
-            <span class="red">總計:<span class="red" id="total">元
-          </td>
-        </tr>
-    </div>
-  </table>
- </body>
+    <div class="line"></div>
+   <div id="footer"></div>
+</body>
 </html>

@@ -90,7 +90,7 @@ span{
     display: block;}
 
 #sidebar_left {
-    background-color:rgb(170, 196, 194);
+    background-color:#111111;
     width: 125px;
     height: 300px;
     text-align: left;
@@ -112,7 +112,7 @@ span{
 
 #footer {
     clear: both;
-    background-color: rgb(170, 196, 194);
+    background-color:#111111;
     height: 310px;
     text-align: left;}
 
@@ -277,16 +277,14 @@ span{
     position:relative;
     top:1px;}
 
-.red{
+.red, .smalltotal1, .smalltotal2, .smalltotal3 {
     color:#111111;
-    font-size: 15px;}
+    font-size: 20px;}
 
 .name{
     width: 150px;}
 
 .table{
-    text-align: center;}
-
-.table2{
     text-align:center;
-    font-size: 15px;}
+    font-size: 18px;}
+
