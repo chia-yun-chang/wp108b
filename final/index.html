@@ -33,7 +33,7 @@
     </div>
 
     <div id="sidebar_right">
-     <button class="Btona">1</button>
+     <button class="Btona" id="myBtn" onclick="myFunction(1)">1</button>
      <button class="Btonb">2</button>
      <button class="Btonc">3</button>
      <button class="Btond">4</button>
@@ -55,56 +55,58 @@
      <div class="line"></div>
     </div>
     <div id="footer">
-      <div id="imgtest"></div>
-      <table style="text-align: center;">
-        <table border="1" style="text-align: center;font-size: 15px;" align="right">
+      <table class="table">
+        <table class="table2" border="1" align="right">
         <thead style="height: 50">
-         <td style="width: 150px">商品名稱</td>
-         <td style="width: 120px">數量</td>
-         <td style="width: 150px">價格</td>
-         <td style="width: 200px;">小計</td>
+         <td class="name">商品名稱</td>
+         <td class="name">數量</td>
+         <td class="name">價格</td>
+         <td class="name">小計</td>
         </thead>
         <tr>
           <td class="name">Toy</td>
           <td class="quantity">
-          </td>
+            <input id="quantity1" value="1" onblur="total(1);" />
+        </td>
           <td class="price">
-            <input type="hidden" id="price1" value="100" />100
+            <input type="hidden" id="price1" value="100">100
           </td>
           <td class="total">
-            <span id="smallTotal1">元
+            <span id="smallTotal1">
           </td>
         </tr>
         <tr>
           <td class="name">Printing</td>
           <td class="quantity">
-          </td>
+            <input id="quantity2" value="2" onblur="total(2);" />
+        </td>
           <td class="price">
-            <input type="hidden" id="price2" value="200" />200
+            <input type="hidden" id="price2" value="200">200
           </td>
           <td class="total">
-            <span id="smallTotal2">元
+            <span id="smallTotal2">
           </td>
         </tr>
         <tr>
           <td class="name">Mug</td>
           <td class="quantity">
-          </td>
+            <input id="quantity3" value="3" onblur="total(3);" />
+        </td>
           <td class="price">
-            <input type="hidden" id="price3" value="300" />300
+            <input type="hidden" id="price3" value="300">300
           </td>
           <td class="total">
-            <span id="smallTotal3">元
+            <span id="smallTotal3">
           </td>
         </tr>
         <tr>
           <td colspan="3" class="cart_total">
           </td>
           <td>
-            <span class="red">總計:<span id="total">元
+            <span class="red">總計:<span class="red" id="total">元
           </td>
         </tr>
     </div>
   </table>
-</body>
+ </body>
 </html>
