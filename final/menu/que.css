@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#111111;}
+
+.a{    
+    margin-left:auto;
+    margin-right:auto;
+    border:1px blue solid;
+    padding:45px;
+    width:500px;
+    height:400px;}
+
+h1 {
+    color: #ffffff;
+    text-align: center;}
+
+ p {
+    color:#ffffff;}
+
+.line{
+    border-top:1px dashed #cccccc;
+    height: 1px;
+    overflow:hidden}
+
+.com {
+    position:absolute;
+    top:90%;
+    left:70%;
+}

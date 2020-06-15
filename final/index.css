@@ -1,286 +1,142 @@
 .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 10px;}
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #fff;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 10px;}
   
 .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #828282;
-    display: block;
-    transition: 0.3s;}
-  
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 5px;
-    font-size: 36px;
-    margin-left: 50px;}
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #828282;
+display: block;
+transition: 0.3s;}
 
 .sidenav a:hover {
-    color: #111111;}
-  
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:#111111;}
+color: #111111;}
 
-a {
-    float: right;
-    font-size:25px;
-    color: white;
-    text-align:center;
-    text-decoration:none;
-    padding: 15px 16px;}
-  
-a:hover .dropdown:hover .dropbtn {
-    background-color:#783267;}
-  
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 5px;
+font-size: 36px;
+margin-left: 50px;}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color:#111111;}
+
+.navbar {
+overflow: hidden;
+background-color: #111;}
+
+.navbar a {
+float: right;
+font-size:25px;
+color: white;
+text-align:center;
+text-decoration:none;
+padding: 15px 16px;}
+
+.navbar a:hover .dropdown:hover .dropbtn {
+background-color:#783267;}
+
 span{
-    font-size:45px;
-    color:#ffffff;
-    cursor:pointer}
-  
+font-size:45px;
+color:#ffffff;
+cursor:pointer}
+
 .line {
-    border-top:1px dashed #cccccc;
-    height: 1px;
-    overflow:hidden}
-  
+border-top:1px dashed #cccccc;
+height: 1px;
+overflow:hidden}
+
 .dropbtn {
-    background-color: #111111;
-    color: white;
-    padding: 20px;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;}
-      
+background-color: #111111;
+color: white;
+padding: 20px;
+font-size: 20px;
+border: none;
+cursor: pointer;}
+
 .dropbtn:hover, .dropbtn:focus {
-    background-color: rgb(87, 152, 196);}
+background-color: rgb(87, 152, 196);}
       
 .dropdown {
-    position: relative;
-    display: inline-block;}
-      
+position: relative;
+display: inline-block;}
+
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 100px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;}
-      
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 100px;
+overflow: auto;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;}
+    
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;}
-      
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;}
+    
 .dropdown a:hover {
-    background-color: #ddd;}
+background-color: #ddd;}
 
 .show {
     display: block;}
 
-#sidebar_left {
-    background-color:#111111;
-    width: 125px;
-    height: 300px;
-    text-align: left;
-    float: left;}
-
-#sidebar_right {
-    background-color:#111111;
-    width: 250px;
-    height: 300px;
-    text-align: center;
-    float: right;}
-
-#content {
-    margin-left: 100px;
-    margin-right: 120px;
-    height: 300px;
-    background-color:#ffffff;
-    text-align: left;}
-
-#footer {
-    clear: both;
-    background-color:#111111;
-    height: 310px;
-    text-align: left;}
-
-.Bton1, .Bton2, .Bton3, .Bton4, .Bton5 {
-    box-shadow: 0px 0px 0px 0px #333532;
-    background:linear-gradient(to bottom, #111111 5%, #111111 100%);
-    background-color:#212222;
-    border-radius:10px;
-    border:1px solid #ffffff;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family:Arial;
-    font-size:19px;
-    padding:12px 37px;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #1d1b1b;}
+.Bton1, .Bton2, .Bton3, .Bton4 {
+box-shadow: 0px 0px 0px 0px #333532;
+background:linear-gradient(to bottom, #111111 5%, #111111 100%);
+background-color:#212222;
+border-radius:10px;
+border:1px solid #ffffff;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family:Arial;
+font-size:19px;
+padding:12px 37px;
+text-decoration:none;
+text-shadow:0px 1px 0px #1d1b1b;}
 
 .Bton1 {
     position:absolute;
-    left:25px;
-    top:85px}
+    top:25%;
+    left:48%;
+    padding: 10px 40px;}
 
 .Bton2 {
     position:absolute;
-    left:25px;
-    top:145px}
+    top:35%;
+    left:48%;
+    padding: 10px 35px;}
 
 .Bton3 {
     position:absolute;
-    left:25px;
-    top:205px}
+    top:45%;
+    left:48%;
+    padding: 10px 24px;}
 
 .Bton4 {
     position:absolute;
-    left:25px;
-    top:265px}
+    top:55%;
+    left:48%;
+    padding: 10px 40px;}
 
-.Bton5 {
-    position:absolute;
-    left:25px;
-    top:325px}
-
-.Bton1:hover, .Bton2:hover, .Bton3:hover, .Bton4:hover, .Bton5:hover, .Btona:hover, .Btonb:hover, .Btonc:hover, .Btond:hover, .Btone:hover, .Btonf:hover, .Btong:hover, .Btonh:hover, .Btoni:hover, .Btonj:hover, .Btonk:hover, .Btonl:hover {
+.Bton1:hover, .Bton2:hover, .Bton3:hover, .Bton4:hover{
     background:linear-gradient(to bottom, #dddddd 5%, #dddddd 100%);
     background-color:#dddddd;}
 
-.Bton1:active .Bton2:active, .Bton3:active, .Bton4:active, .Bton5:active {
+.Bton1:active, .Bton2:active, .Bton3:active, .Bton4:active {
     position:relative;
     top:1px;}
-   
-.Btona, .Btonb, .Btonc, .Btond, .Btone, .Btonf, .Btong, .Btonh, .Btoni, .Btonj, .Btonk, .Btonl {
-    box-shadow:inset 0px 1px 0px 0px #333532;
-	background:linear-gradient(to bottom, #111111 5%, #111111 100%);
-	background-color:#212222;
-	border-radius:6px;
-	border:1px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #1d1b1b;}
     
-.Btona {
-    position:absolute;
-    right:180px;
-    top:100px}
-    
-.Btonb {
-    position:absolute;
-    right:100px;
-    top:100px}
-    
-.Btonc {
-    position:absolute;
-    right:20px;
-    top:100px}
-    
-.Btond {
-    position:absolute;
-    right:180px;
-    top:150px}
-    
-.Btone {
-    position:absolute;
-    right:100px;
-    top:150px}
-
-.Btonf {
-    position:absolute;
-    right:20px;
-    top:150px}
-        
-.Btong {
-    position:absolute;
-    right:180px;
-    top:200px}
-        
-.Btonh {
-    position:absolute;
-    right:100px;
-    top:200px}
-        
-.Btoni {
-    position:absolute;
-    right:20px;
-    top:200px}
-        
-.Btonj {
-    position:absolute;
-    right:180px;
-    top:250px}
-   
-.Btonk {
-    padding:6px 20px;
-    position:absolute;
-    right:100px;
-    top:250px}
-            
-.Btonl {
-    padding:6px 26px;
-    position:absolute;
-    right:20px;
-    top:250px}
-
-.Btona:active, .Btonb:active, .Btonc:active, .Btond:active, .Btone:active, .Btonf:active, .Btong:active, .Btonh:active, .Btoni:active, .Btonj:active, .Btonk:active, .Btonl:active {
-    position:relative;
-    top:1px;}
-
-.checkout {
-    box-shadow:inset 0px 1px 0px 0px #276873;
-    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
-    background-color:#599bb3;
-    border-radius:4px;
-    border:1px solid #29668f;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family:Arial;
-    font-size:20px;
-    font-weight:bold;
-    padding:20px 10px;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #3d768a;
-    position:absolute;
-    right:20px;
-    top:300px}
-
-.checkout:hover {
-    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-    background-color:#408c99;}
-
-.checkout:active {
-    position:relative;
-    top:1px;}
-
-.red, .smalltotal1, .smalltotal2, .smalltotal3 {
-    color:#111111;
-    font-size: 20px;}
-
-.name{
-    width: 150px;}
-
-.table{
-    text-align:center;
-    font-size: 18px;}
-
