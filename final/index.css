@@ -93,7 +93,7 @@ background-color: #ddd;}
 .show {
     display: block;}
 
-.Bton1, .Bton2, .Bton3, .Bton4 {
+.Bton1, .Bton2{
 box-shadow: 0px 0px 0px 0px #333532;
 background:linear-gradient(to bottom, #111111 5%, #111111 100%);
 background-color:#212222;
@@ -112,7 +112,7 @@ text-shadow:0px 1px 0px #1d1b1b;}
     position:absolute;
     top:25%;
     left:45%;
-    padding: 10px 40px;}
+    padding: 10px 35px;}
 
 .Bton2 {
     position:absolute;
@@ -120,23 +120,11 @@ text-shadow:0px 1px 0px #1d1b1b;}
     left:45%;
     padding: 10px 35px;}
 
-.Bton3 {
-    position:absolute;
-    top:45%;
-    left:45%;
-    padding: 10px 24px;}
-
-.Bton4 {
-    position:absolute;
-    top:55%;
-    left:45%;
-    padding: 10px 40px;}
-
-.Bton1:hover, .Bton2:hover, .Bton3:hover, .Bton4:hover{
+.Bton1:hover, .Bton2:hover{
     background:linear-gradient(to bottom, #dddddd 5%, #dddddd 100%);
     background-color:#dddddd;}
 
-.Bton1:active, .Bton2:active, .Bton3:active, .Bton4:active {
+.Bton1:active, .Bton2:active{
     position:relative;
     top:1px;}
     

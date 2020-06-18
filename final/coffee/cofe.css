@@ -3,14 +3,42 @@ body {
     background-color:#111111;}
 
 .name, .price, .total, .smalltotal, .red{
-    width: 150px;
-    font-size: 20px;
+    width: 200px;
+    font-size: 25px;
     color: #ffffff;}
 
 .table{
     text-align:center;
-    font-size: 18px;}
+    font-size: 20px;}
 
-table{
-    border:1 ;
-    align-content: center;}
+.Bton {
+    box-shadow: 0px 0px 0px 0px #333532;
+    background:linear-gradient(to bottom, #111111 5%, #111111 100%);
+    background-color:#212222;
+    border-radius:10px;
+    border:1px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:19px;
+    padding:12px 37px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #1d1b1b;
+    position:absolute;
+    top:60%;
+    left:45%;
+    padding: 10px 35px;}
+
+.Bton:hover{
+    background:linear-gradient(to bottom, #dddddd 5%, #dddddd 100%);
+    background-color:#dddddd;}
+
+.Bton:active {
+    position:relative;
+    top:1px;}
+
+h1{
+    color: #ffffff;
+    text-align: center;}
+
