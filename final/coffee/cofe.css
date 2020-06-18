@@ -42,3 +42,8 @@ h1{
     color: #ffffff;
     text-align: center;}
 
+.back{
+    position:absolute;
+    top:80%;
+    left:50%;}
+    
