@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="report.css" rel="stylesheet" type ="text/css">
+</head>
+<body>
+<h1>---REPORT---</h1><br>
+<script src="./report.js" type="text/javascript"></script>
+<table class="table">
+  <table class="table" border="1" align="center">
+    <thead style="height: 50">
+     <td class="name">Commodity</td>
+     <td class="name">QuantityTotal</td>
+     <td class="name">SmallTotal</td>
+    </thead>
+    <tr>
+      <td class="name">espresso</td>
+      <td class="quantity">
+        <span id="quantity1" class="quantity"><span>
+      </td>
+      <td class="total">
+        <span id="smallTotal1" class="smalltotal"></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="name">caffè Americano</td>
+      <td class="quantity">
+        <span id="quantity2" class="quantity"><span>
+      </td>
+      <td class="total">
+        <span id="smallTotal2" class="smalltotal"></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="name">caffè latte</td>
+      <td class="quantity">
+        <input id="quantity3" value="0" onblur="total(3);">
+      </td>
+      <td class="total">
+        <span id="smallTotal3" class="smalltotal">0</span>
+      </td> 
+    </tr>
+    <tr>
+      <td colspan="2" class="cart_total"></td>
+      <td>
+        <span class="red">Total:<span class="red" id="total">Dollar
+      </td>
+    </tr>
+</table>
+<button class="Bton" herf="#" >Checkout</button>
+<input class="back" type ="button" onclick="history.back()" value="BACK"></input>
+   </body>
+   </html>

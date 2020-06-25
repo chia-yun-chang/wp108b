@@ -18,7 +18,7 @@ class Vector {
         return new Vector (0 - this.x, 0 - this.y, 0 - this.z);
     }
     toString(){
-        return "["+this.x+","+this.y+","+this.z+"]"
+        return "["+this.x+","+this.y+","+this.z+"]";
     }
-  };
+  }
   module.exports.Vector = Vector;

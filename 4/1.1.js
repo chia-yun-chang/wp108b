@@ -6,4 +6,4 @@ for(var i=0;i<mean.length;i++)
 }
 var average=total/mean.length;
 
-console.log("%s average = ％d",mean,average);
+console.log("[%s] average = ",mean,average);

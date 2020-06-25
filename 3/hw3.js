@@ -1,7 +1,7 @@
-a=1;b=7;c=0;
-for(i=a;i<=b;i++){
-    d=0;
-    for(j=2;j<i;j++){
+var a=3,b=7,c=0;
+for(var i=a;i<=b;i++){
+    var d=0;
+    for(var j=2;j<i;j++){
         
         if(i%j===0){
             d=1;  

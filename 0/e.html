@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="e.css" rel="stylesheet" type ="text/css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+</head>
+<body> 
+<div id="report" class="panel">
+    <table>
+      <thead><tr><th>代號</th><th>金額</th><th>日期</th><th>時間</th></tr></thead>
+      <tbody id="reportBody"></tbody>
+    </table>
+    <br/>
+    <div class="center">
+      <label>本日總收入：</label>
+      <label id="dayTotal"></label>
+      <br/><br/>
+      <button onclick="Shop.start()">回主選單</button>
+    </div>
+  </div>
+  <div id="detail" class="panel" style="display:none">
+    <table>
+      <thead><tr><th>商品</th><th>單價</th><th>數量</th></tr></thead>
+      <tbody id="detailBody"></tbody>
+    </table>
+    <br/>
+    <div>
+      <label>總價:</label><label id="totalPrice"></label>
+      <br/><br/>
+      <button onclick="Ui.showPanel('report')">回到報表</button>
+    </div>
+  </div>
+  </body>
+  </html>
