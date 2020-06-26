@@ -12,4 +12,4 @@ console.log('add(4,9)=', f(4,9))
 var sub = function(a,b){
     return a-b;
 }
-console.log('sub(10,3)',sub(10,3))
+console.log('sub(10,3)',sub(10,3));

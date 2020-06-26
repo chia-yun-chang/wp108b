@@ -5,7 +5,7 @@ var george ={
         {"name":"john", "age": 22 },
         {"name":"mary", "age": 28 }
     ]
-};
+}
 
 console.log("george.age="+george.age);
 console.log("george.friends:");
