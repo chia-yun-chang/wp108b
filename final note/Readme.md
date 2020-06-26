@@ -21,10 +21,10 @@
 [HW4](https://github.com/chia-yun-chang/wp108b/tree/master/final%20note/HW4) | [code](https://github.com/chia-yun-chang/wp108b/blob/master/final%20note/HW4/Hw4.js)
 [HW5](https://github.com/chia-yun-chang/wp108b/tree/master/final%20note/HW5) | [code](https://github.com/chia-yun-chang/wp108b/blob/master/final%20note/HW5/Hw5.js)
 [Midterm](https://github.com/chia-yun-chang/wp108b/tree/master/midterm) | [網站](https://chia-yun-chang.github.io/wp108b/midterm/index.html) 
-*未完成[final](https://github.com/chia-yun-chang/wp108b/tree/master/final) | [網站](https://chia-yun-chang.github.io/wp108b/final/index.html) 
+[未完成 final](https://github.com/chia-yun-chang/wp108b/tree/master/final) | [網站](https://chia-yun-chang.github.io/wp108b/final/index.html) 
 
 ## 三、JavaScript練習
-[Practice Code](https://github.com/chia-yun-chang/wp108b/blob/master/final%20note/JS/practice.js)
+[All Practice Code](https://github.com/chia-yun-chang/wp108b/blob/master/final%20note/JS/practice.js)
 
 ## 四、心得
 ```
